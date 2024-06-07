@@ -1,19 +1,23 @@
 import React from "react";
 import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import FeaturedCompanies from "./components/FeaturedCompanies";
 import Pagination from "./components/Pagination";
+import Footer  from "./components/Footer";
 import { Grid, Box } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
+    
+    <div className="App" style={{
+      backgroundColor: '#91e04b'}}>
       <Header />
-      <Sidebar />
-      <Box sx={{ marginLeft: "240px", padding: 3 }}>
-        <Grid container spacing={2}>
-          
+     
+      <Box sx={{ marginLeft: "40px",marginTop: "50px", padding: 3}}>
+        <Grid container spacing={4}>
+          <Grid item xs={12}>
+            <MainContent />
+          </Grid>
           <Grid item xs={12}>
             <FeaturedCompanies />
           </Grid>
@@ -22,7 +26,9 @@ function App() {
           </Grid>
         </Grid>
       </Box>
+      <Footer/>
     </div>
+   
   );
 }
 

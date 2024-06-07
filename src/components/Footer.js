@@ -1,51 +1,59 @@
 import React from "react";
 import { Box, Container, Typography, Link, Grid } from "@mui/material";
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 
 function Footer() {
   return (
     <Box
       sx={{
-        backgroundColor: "primary.dark",
+        backgroundColor: "black",
         color: "white",
         padding: "16px 0",
         marginTop: "auto",
       }}
     >
       <Container maxWidth="lg">
-        <Grid container spacing={2}>
-          <Grid item xs={4}>
+        <Grid container spacing={4}>
+          <Grid item xs={6}>
             <Typography variant="h6">Contact</Typography>
-            <Typography variant="body2">Careers</Typography>
-            <Link href="#" color="inherit">
+            
+            <ButtonGroup  variant="text" style={{color: 'black'}} >
+            <Button>
               LinkedIn
-            </Link>
-            <Link href="#" color="inherit">
+              </Button>
+              <Button>
               Twitter
-            </Link>
-            <Link href="#" color="inherit">
+              </Button>
+              <Button>
               YouTube
-            </Link>
-            <Link href="#" color="inherit">
+              </Button>
+              <Button>
               Instagram
-            </Link>
-            <Link href="#" color="inherit">
+              </Button>
+              <Button>
               Facebook
-            </Link>
+              </Button>
+            </ButtonGroup>
           </Grid>
           <Grid item xs={4}>
-            <Typography variant="h6">Fifth Wall's Weekly Newsletter</Typography>
-            <Link href="#" color="inherit">
+          <Link href="#" color="inherit">
               Sign Up
-            </Link>
-          </Grid>
-          <Grid item xs={4}>
-            <Typography variant="body2">&copy; 2024 Fifth Wall</Typography>
+            </Link><br/>
             <Link href="#" color="inherit">
               Investor Login
             </Link>
+            <br/>
             <Link href="#" color="inherit">
               Sitemap
             </Link>
+           
+          </Grid>
+          <Grid item xs={2}>
+            <Typography variant="body2">&copy; 2024 Fifth Wall</Typography>
+            
+         
+            
             <Link href="#" color="inherit">
               Terms of Use
             </Link>
