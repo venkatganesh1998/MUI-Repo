@@ -13,9 +13,7 @@ function App() {
       <Sidebar />
       <Box sx={{ marginLeft: "240px", padding: 3 }}>
         <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <MainContent />
-          </Grid>
+          
           <Grid item xs={12}>
             <FeaturedCompanies />
           </Grid>
