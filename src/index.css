@@ -1,4 +1,6 @@
 body {
+  background-image: url("https://unsplash.com/photos/a-black-and-white-cat-laying-on-a-white-surface-FPrniQ84dEk");
+  background-repeat: no-repeat;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

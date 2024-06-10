@@ -10,7 +10,7 @@ const companies = [
 
 const FeaturedCompanies = () => {
   return (
-    <Box p={4} bgcolor="#e0efd1"
+    <Box p={4} bgcolor="#F5F5F5"
     
     gap={4}
     p={1}

@@ -4,7 +4,6 @@ import App from "./App";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import "@fontsource/roboto";
-import "./styles.css";
 
 ReactDOM.render(
   <React.StrictMode>

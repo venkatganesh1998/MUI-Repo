@@ -5,12 +5,12 @@ import FeaturedCompanies from "./components/FeaturedCompanies";
 import Pagination from "./components/Pagination";
 import Footer  from "./components/Footer";
 import { Grid, Box } from "@mui/material";
-
+import "./App.css"
 function App() {
   return (
-    
-    <div className="App" style={{
-      backgroundColor: '#91e04b'}}>
+    <body>
+    <div class="App" >
+     
       <Header />
      
       <Box sx={{ marginLeft: "40px",marginTop: "50px", padding: 3}}>
@@ -28,7 +28,7 @@ function App() {
       </Box>
       <Footer/>
     </div>
-   
+    </body>
   );
 }
 
